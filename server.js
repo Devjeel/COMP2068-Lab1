@@ -10,6 +10,8 @@ http.createServer(function (req, res) {
 }).listen(port);
 
 Console.log('Hello World');
+Console.log('Another Hello World');
+
 //Anonymous func
 var total = function (x, y) {
     var sum = x + y;
